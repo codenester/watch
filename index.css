@@ -4,13 +4,19 @@ body {
 }
 #author {
   position: absolute;
-  left: 50%;
-  top: 8%;
+  margin: 10px;
   font-weight: bold;
-  transform: translateX(-50%);
-  color: rgb(128, 49, 49);
   text-transform: uppercase;
-  text-shadow: 0 0 2px #000;
+  display: flex;
+}
+#author span:first-child {
+  background: #6e0000;
+  padding: 2px 5px;
+  color: #eee;
+}
+#author span:last-child {
+  background: #eee;
+  padding: 2px 5px;
 }
 #box-side {
   width: 400px;
